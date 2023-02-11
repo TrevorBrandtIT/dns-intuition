@@ -52,7 +52,7 @@ Now we'll observe some things in the DNS cache. Go back to DC-1 and change mainf
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Finally, let's create a CNAME record. To do this, navigate back to DNS in Server Manager. Expand mydomain.com and right click to Create a New Alias or CNAME record. Name it "search" and let it direct to "www.google.com". Go back to Client-1 and observe the results of pinging search. Use nslookup to observe the results of the CNAME record.
 </p>
 <br />
 
